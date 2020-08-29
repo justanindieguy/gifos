@@ -192,7 +192,7 @@ uploadBtn.addEventListener('click', () => {
         recordedContainer.classList.remove('uploading');
         recordedContainer.classList.add('uploaded');
 
-        loader.src = '../../images/check.svg';
+        loader.src = '../gifos/images/check.svg';
         loader.alt = 'GIF Subido ícono';
 
         uploadInfo.innerText = 'GIFO subido con éxito';
