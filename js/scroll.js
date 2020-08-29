@@ -15,9 +15,9 @@ window.addEventListener('scroll', () => {
   }
 
   if (window.innerWidth >= 1280) {
-    console.log(window.location.pathname);
+    const location = window.location.pathname;
 
-    if (window.location.pathname === '/') {
+    if (location === '/gifos/' || location === '/gifos/index.html') {
       if (scrollPos > 560) {
         if (searchNavContainer.classList.contains('is-hidden')) {
           searchNavContainer.classList.remove('is-hidden');
