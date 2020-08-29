@@ -28,6 +28,7 @@ async function searchGIFs(query, limit = 12, offset = 0) {
   );
 
   const searchResults = await checkAndParse(res);
+  const total = searchResults.pagination.total_count;
 
   if (searchResults.data.length === 0) {
     throw { status: 13, msg: 'Term not found.' };
@@ -35,6 +36,10 @@ async function searchGIFs(query, limit = 12, offset = 0) {
 
   if (offset === 0) {
     allSearchCards.splice(0, allSearchCards.length);
+  }
+
+  if (offset + 12 >= total) {
+    hideComponent(results.seeMoreBtn);
   }
 
   for (let i = 0; i < searchResults.data.length; i += 1) {
