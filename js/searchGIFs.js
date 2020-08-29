@@ -40,6 +40,8 @@ async function searchGIFs(query, limit = 12, offset = 0) {
 
   if (offset + 12 >= total) {
     hideComponent(results.seeMoreBtn);
+  } else {
+    displayComponent(results.seeMoreBtn);
   }
 
   for (let i = 0; i < searchResults.data.length; i += 1) {
