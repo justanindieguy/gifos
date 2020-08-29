@@ -100,14 +100,14 @@ export class CommonCard extends GenericCard {
   updateFavBtnToInFavorites() {
     if (window.innerWidth >= 1280) {
       this.favoriteBtn.style.backgroundImage =
-        'url("../images/icon-fav-active.svg")';
+        'url("../gifos/images/icon-fav-active.svg")';
     }
   }
 
   updateFavBtnToNotInFavorites() {
     if (window.innerWidth >= 1280) {
       this.favoriteBtn.style.backgroundImage =
-        'url("../images/icon-fav-hover.svg")';
+        'url("../gifos/images/icon-fav-hover.svg")';
     }
   }
 
