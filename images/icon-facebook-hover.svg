@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon-facebook-hover.svg"
+   id="svg1067"
+   version="1.1"
+   viewBox="0 0 8 17"
+   height="17px"
+   width="8px">
+  <metadata
+     id="metadata1073">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon_facebook</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1071" />
+  <sodipodi:namedview
+     inkscape:current-layer="icon_facebook"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="8.5"
+     inkscape:cx="4"
+     inkscape:zoom="48.647059"
+     showgrid="false"
+     id="namedview1069"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title1056">icon_facebook</title>
+  <desc
+     id="desc1058">Created with Sketch.</desc>
+  <g
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="GIFOS">
+    <g
+       transform="translate(-1027.000000, -2780.000000)"
+       id="00-UI-Kit">
+      <g
+         transform="translate(1018.000000, 2778.000000)"
+         id="icon_facebook">
+        <g
+           id="g1060" />
+        <path
+           style="fill:#572ee5;fill-opacity:1"
+           fill="#CDD6E0"
+           id="Clip-4"
+           d="M10.715503,19 L10.715503,10.4988913 L9,10.4988913 L9,7.56971739 L10.715503,7.56971739 L10.715503,5.81095652 C10.715503,3.42171739 11.6832226,2 14.4354173,2 L16.7259217,2 L16.7259217,4.93028261 L15.2944004,4.93028261 C14.2232227,4.93028261 14.1521393,5.3393913 14.1521393,6.10365217 L14.1475647,7.56971739 L16.7417571,7.56971739 L16.4380691,10.4988913 L14.1475647,10.4988913 L14.1475647,19 L10.715503,19 Z" />
+        <rect
+           height="20"
+           width="20"
+           y="0"
+           x="0"
+           id="Rectangle" />
+      </g>
+    </g>
+  </g>
+</svg>

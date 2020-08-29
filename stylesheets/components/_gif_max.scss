@@ -1,0 +1,111 @@
+#gif-max {
+  display: none;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.95);
+  opacity: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10% 5%;
+  z-index: 1;
+
+  img {
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 380px;
+  }
+}
+
+#gif-container-max {
+  position: relative;
+
+  button.nav-mobile {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background-size: 12px;
+  }
+}
+
+.prev-mobile {
+  top: 50%;
+  transform: translateY(-50%);
+  @include icon-bg('../images/button-left-mobile.svg');
+}
+
+.next-mobile {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  @include icon-bg('../images/button-right-mobile.svg');
+}
+
+#max-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2,
+  h3 {
+    color: black;
+  }
+
+  h3 {
+    font-weight: 500;
+  }
+
+  div:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#close-max {
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  background-color: transparent;
+  @include icon-bg('../images/button-close.svg');
+}
+
+#favorite {
+  border: none;
+  background-color: transparent;
+  @include icon-bg('../images/icon-fav-hover.svg');
+}
+
+#favorite.in-favorites {
+  background-image: url('../images/icon-fav-active.svg');
+}
+
+#remove {
+  border: none;
+  background-color: transparent;
+  @include icon-bg('../images/icon-trash.svg');
+}
+
+#download {
+  @include icon-bg('../images/icon-download.svg');
+  background-color: transparent;
+  border: 1px solid $active-gray;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 25px;
+}

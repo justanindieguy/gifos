@@ -1,0 +1,108 @@
+@include for-desktop {
+  nav {
+    padding: 15px 0;
+  }
+
+  #nav-container {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 1115px;
+
+    .hamburger-bar {
+      display: none;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      color: $purple;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 20px;
+    }
+
+    li::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: -2px;
+      left: 0;
+      background-color: $blue;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    li:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    li:not(:first-child)::after {
+      display: none;
+    }
+
+    a {
+      color: $purple;
+    }
+  }
+
+  #logo {
+    display: inline;
+  }
+
+  #logo-text {
+    top: 40px;
+    left: 15px;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+  }
+
+  #create-btn {
+    display: block;
+    border-radius: 100%;
+    margin-left: 50px;
+    height: 54px;
+    width: 54px;
+    @include icon-bg('../images/button-crear-gifo.svg');
+  }
+
+  #create-btn:hover {
+    background-image: url('../images/button-crear-gifo-hover.svg');
+  }
+
+  #search-wrapper {
+    display: flex;
+  }
+}
+
+@include for-tablet {
+  nav {
+    padding: 20px 5%;
+  }
+
+  #logo-text {
+    left: 70px;
+    top: 42px;
+  }
+}

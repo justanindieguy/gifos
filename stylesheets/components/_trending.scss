@@ -1,0 +1,14 @@
+#trending {
+  text-align: center;
+  background-color: $light-gray;
+  padding: 5% 0 10%;
+
+  p {
+    padding: 0 5% 5%;
+  }
+}
+
+.carousel-btn.next,
+.carousel-btn.previous {
+  display: none;
+}

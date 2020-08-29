@@ -1,0 +1,21 @@
+.dark-mode {
+  #trending {
+    background-color: #222326;
+  }
+
+  .previous {
+    background-image: url('../images/button-left-hover.svg');
+  }
+
+  .previous:hover {
+    background-image: url('../images/button-left-modo-noc.svg');
+  }
+
+  .next {
+    background-image: url('../images/button-right-hover.svg');
+  }
+
+  .next:hover {
+    background-image: url('../images/button-right-modo-noc.svg');
+  }
+}

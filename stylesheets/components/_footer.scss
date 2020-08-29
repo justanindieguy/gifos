@@ -1,0 +1,41 @@
+footer {
+  text-align: center;
+  padding: 10% 0;
+
+  #icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+    transition: background-image 0.3s ease;
+  }
+
+  #facebook {
+    @include icon-bg("../images/icon-facebook.svg");
+  }
+
+  #facebook:hover {
+    background-image: url("../images/icon-facebook-hover.svg");
+  }
+
+  #twitter {
+    @include icon-bg("../images/icon-twitter.svg");
+  }
+
+  #twitter:hover {
+    background-image: url("../images/icon-twitter-hover.svg");
+  }
+
+  #instagram {
+    @include icon-bg("../images/icon-instagram.svg");
+  }
+
+  #instagram:hover {
+    background-image: url("../images/icon-instagram-hover.svg");
+  }
+}

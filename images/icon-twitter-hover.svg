@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon-twitter-hover.svg"
+   id="svg1115"
+   version="1.1"
+   viewBox="0 0 18 17"
+   height="17px"
+   width="18px">
+  <metadata
+     id="metadata1121">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon-twitter</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1119" />
+  <sodipodi:namedview
+     inkscape:current-layer="icon-twitter"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="8.5"
+     inkscape:cx="9"
+     inkscape:zoom="48.647059"
+     showgrid="false"
+     id="namedview1117"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title1103">icon-twitter</title>
+  <desc
+     id="desc1105">Created with Sketch.</desc>
+  <g
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="GIFOS">
+    <g
+       transform="translate(-1057.000000, -2780.000000)"
+       id="00-UI-Kit">
+      <g
+         transform="translate(328.000000, 1736.000000)"
+         id="Footer">
+        <g
+           transform="translate(728.000000, 1042.000000)"
+           id="icon-twitter">
+          <rect
+             height="20"
+             width="20"
+             y="0"
+             x="0"
+             id="Rectangle-Copy-9" />
+          <path
+             style="fill:#572ee5;fill-opacity:1"
+             id="path1108"
+             fill="#CDD6E0"
+             d="M18.5024286,2.29975862 C17.788,2.76875032 16.999,3.10811669 16.1568571,3.29175259 C15.4848571,2.49599699 14.5244286,2 13.4615714,2 C11.4224286,2 9.77028571,3.83140812 9.77028571,6.08994976 C9.77028571,6.41086252 9.80071429,6.7232236 9.86414286,7.02163195 C6.796,6.85059851 4.07542857,5.22398043 2.25314286,2.74759619 C1.93514286,3.35386474 1.75342857,4.05600204 1.75342857,4.80494849 C1.75342857,6.2236259 2.40528571,7.47577075 3.39614286,8.21031439 C2.791,8.18961034 2.22142857,8.0032739 1.72257143,7.69901441 L1.72257143,7.74942426 C1.72257143,9.73161187 2.99457143,11.3852352 4.68614286,11.7597085 C4.37542857,11.8555772 4.05014286,11.9037366 3.712,11.9037366 C3.47457143,11.9037366 3.24185714,11.8789818 3.01814286,11.8312724 C3.487,13.4556401 4.85114286,14.6398216 6.46771429,14.6713278 C5.203,15.7690925 3.61085714,16.4221702 1.88114286,16.4221702 C1.58328571,16.4221702 1.28842857,16.4046167 1,16.3659092 C2.63457143,17.525786 4.57514286,18.2031684 6.661,18.2031684 C13.4542857,18.2031684 17.167,11.9703496 17.167,6.56524271 C17.167,6.38745794 17.1648571,6.21057335 17.1575714,6.03638929 C17.8788571,5.45937646 18.5067143,4.73833546 19,3.91782502 C18.3374286,4.24323865 17.6255714,4.46333169 16.8794286,4.56145088 C17.6422857,4.05600204 18.2277143,3.25439529 18.5024286,2.29975862 Z" />
+          <rect
+             height="20"
+             width="20"
+             y="0"
+             x="0"
+             id="Rectangle-Copy-10" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

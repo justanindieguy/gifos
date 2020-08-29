@@ -1,0 +1,104 @@
+#input-container {
+  position: relative;
+  z-index: 0;
+}
+
+#search-box {
+  width: 100%;
+  height: 50px;
+}
+
+#search-box:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+#search-btn {
+  top: 12px;
+  right: 20px;
+}
+
+#suggestions {
+  margin: 0;
+  border-radius: 0 0 25px 25px;
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
+  color: $active-gray;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 300ms;
+}
+
+#search-margin {
+  display: none;
+  background-color: $active-gray;
+  height: 1px;
+  border: none;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.suggestion {
+  @include icon-bg('../images/icon-suggestion.svg');
+  background-position-x: 25px;
+  background-size: 15px;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  color: black;
+}
+
+.suggestion-text {
+  padding-left: 60px;
+}
+
+li.active {
+  background-color: #f1f1f1;
+}
+
+// Muestra las sugerencias y cambia la apariencia del searchbox cuando está
+// abierto.
+.open {
+  input#search-box {
+    padding-left: 60px;
+    @include icon-bg('../images/icon-suggestion.svg');
+    background-position-x: 25px;
+  }
+
+  #search-btn {
+    background-image: url('../images/button-close.svg');
+  }
+
+  #search-margin {
+    display: block;
+  }
+
+  #suggestions {
+    max-height: 181px;
+  }
+}
+
+.border {
+  input#search-box {
+    border-radius: 25px 25px 0 0;
+    border-bottom: none;
+  }
+
+  #suggestions {
+    border: 1px solid $purple;
+    border-top: none;
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,29 @@
+.dark-mode {
+  #create-gif div.step {
+    border: 1px solid white;
+    color: white;
+  }
+
+  #create-gif #start {
+    border: 1px solid white;
+    color: white;
+  }
+
+  #create-gif #start:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #create-gif .light-img {
+    display: none;
+  }
+
+  #create-gif .dark-img {
+    display: block;
+  }
+
+  #create-gif .step.active {
+    background-color: white;
+    color: black;
+  }
+}

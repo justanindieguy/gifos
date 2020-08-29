@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4vh;
+  margin-bottom: 25px;
+
+  .card {
+    width: 95%;
+    height: 120px;
+  }
+
+  .card:nth-child(even) {
+    justify-self: end;
+  }
+}

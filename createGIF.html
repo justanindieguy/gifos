@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crea tu GIFOS</title>
+    <link rel="stylesheet" href="css/create_main.css" />
+    <link
+      rel="shortcut icon"
+      href="images/logo-desktop-modo-noc.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <hr id="nav-hr" />
+
+    <nav>
+      <div id="nav-container">
+        <a href="/">
+          <img src="images/logo.svg" alt="Logotipo" id="logo" />
+          <span id="logo-text" class="colored-text">GIFOS</span>
+        </a>
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <span class="hamburger-bar" id="bar-top"></span>
+        <span class="hamburger-bar" id="bar-center"></span>
+        <span class="hamburger-bar" id="bar-bottom"></span>
+
+        <div class="container">
+          <ul id="menu">
+            <li id="dark-toggle">Modo Nocturno</li>
+
+            <li id="favorites-menu">
+              <a href="/favorites.html">Favoritos</a>
+            </li>
+
+            <li id="mis-gifos-menu">
+              <a href="myGIFOS.html">Mis GIFOS</a>
+            </li>
+          </ul>
+
+          <a href="/createGIF.html" class="hover-btn" id="create-btn"></a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="create-gif">
+        <img
+          class="camera light-img"
+          src="images/camara-luz.svg"
+          alt="Ícono de cámara"
+        />
+
+        <img
+          class="camera dark-img"
+          src="images/camara-luz-modo-noc.svg"
+          alt="Ícono de cámara"
+        />
+
+        <div id="frame">
+          <div id="inner-frame-top-left"></div>
+          <div id="inner-frame-top-right"></div>
+
+          <div class="instructions">
+            <h2>
+              Aquí podrás <br />
+              crear tus propios <span>GIFOS</span>
+            </h2>
+
+            <p>
+              ¡Crea tu GIFO en sólo 3 pasos! <br />
+              (sólo necesitas una cámara para grabar un vídeo)
+            </p>
+          </div>
+
+          <div id="recorded-container">
+            <div id="overlay"></div>
+
+            <div id="upload-info">
+              <img
+                id="loader"
+                src="./images/loader.svg"
+                alt="Animación de subir GIFO"
+              />
+
+              <p>Estamos subiendo tu GIFO</p>
+            </div>
+
+            <a class="card-btn" id="download-create"></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              class="card-btn"
+              id="link-create"
+            ></a>
+
+            <img id="recorded-gif" src="/" alt="Recorded GIF" />
+          </div>
+
+          <video id="video"></video>
+
+          <div id="inner-frame-bottom-left"></div>
+          <div id="inner-frame-bottom-right"></div>
+        </div>
+
+        <div id="step-container">
+          <div class="step" id="step-one">1</div>
+          <div class="step" id="step-two">2</div>
+          <div class="step" id="step-three">3</div>
+        </div>
+
+        <p id="timer" class="colored-text">00:00:00</p>
+        <p id="rerecord" class="colored-text">REPETIR CAPTURA</p>
+
+        <img
+          class="film light-img"
+          src="images/pelicula.svg"
+          alt="Película ícono"
+        />
+
+        <img
+          class="film dark-img"
+          src="images/pelicula-modo-noc.svg"
+          alt="Pelicula ícono"
+        />
+
+        <hr />
+
+        <button class="hover-btn rounded-btn" id="start">COMENZAR</button>
+        <button class="hover-btn rounded-btn" id="upload">SUBIR GIFO</button>
+      </section>
+    </main>
+
+    <footer>
+      <div id="social">
+        <p>Compartir en:</p>
+
+        <div id="icons">
+          <a
+            id="facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="twitter"
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        </div>
+      </div>
+
+      <div>
+        <p>&copy; GIFOS 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+    <hr />
+
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script type="module" src="js/navbar.js"></script>
+    <script type="module" src="js/darkmode.js"></script>
+    <script type="module" src="js/createGIF/create.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1023"
+   sodipodi:docname="button-crear-gifo-modo-noc.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata1027">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>button-crear-gifo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview1025"
+     showgrid="false"
+     inkscape:zoom="51.6875"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="00-UI-Kit" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title1008">button-crear-gifo</title>
+  <desc
+     id="desc1010">Created with Sketch.</desc>
+  <defs
+     id="defs1013">
+    <path
+       d="M8,0 C8.55228475,0 9,0.44771525 9,1 L9,1 L9,7 L15,7 C15.5128358,7 15.9355072,7.38604019 15.9932723,7.88337887 L16,8 C16,8.55228475 15.5522847,9 15,9 L15,9 L9,9 L9,15 C9,15.5128358 8.61395981,15.9355072 8.11662113,15.9932723 L8,16 C7.44771525,16 7,15.5522847 7,15 L7,15 L7,9 L1,9 C0.487164161,9 0.0644928393,8.61395981 0.00672773133,8.11662113 L0,8 C0,7.44771525 0.44771525,7 1,7 L1,7 L7,7 L7,1 C7,0.487164161 7.38604019,0.0644928393 7.88337887,0.00672773133 Z"
+       id="path-1" />
+  </defs>
+  <g
+     id="GIFOS"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#ffffff;fill-opacity:1">
+    <g
+       id="00-UI-Kit"
+       transform="translate(-188.000000, -2784.000000)"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         id="button-crear-gifo"
+         transform="translate(188.000000, 2784.000000)"
+         style="fill:#000000;fill-opacity:1">
+        <mask
+           id="mask-2"
+           fill="white">
+          <use
+             xlink:href="#path-1"
+             id="use1015" />
+        </mask>
+        <use
+           fill="#572EE5"
+           fill-rule="nonzero"
+           xlink:href="#path-1"
+           id="use1018"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+@include for-desktop {
+  .content-wrapper {
+    padding: 5%;
+  }
+
+  .content-wrapper > h2 {
+    margin-bottom: 50px;
+  }
+}
+
+@include for-tablet {
+  .content-wrapper {
+    padding: 2% 5%;
+  }
+}

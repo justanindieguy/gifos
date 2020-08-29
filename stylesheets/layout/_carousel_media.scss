@@ -1,0 +1,71 @@
+@include for-desktop {
+  .carousel {
+    position: relative;
+    height: 275px;
+    width: 1130px;
+    margin: 0 auto;
+
+    .card {
+      height: 275px;
+      width: 357px;
+      margin: 0 10px;
+    }
+  }
+
+  .carousel-track-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: block;
+    overflow-x: visible;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+
+    .card:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .carousel-slide {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-btn.previous {
+    display: block;
+    left: -45px;
+  }
+
+  .carousel-btn.next {
+    display: block;
+    right: -45px;
+  }
+
+  .carousel-btn.is-hidden {
+    display: none;
+  }
+}
+
+@include for-tablet {
+  .carousel {
+    .card {
+      width: 357px;
+      height: 275px;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon-fav-modo-noc.svg"
+   id="svg913"
+   version="1.1"
+   viewBox="0 0 18 16"
+   height="16px"
+   width="18px">
+  <metadata
+     id="metadata917">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon-fav-hover</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg913"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="8"
+     inkscape:cx="9"
+     inkscape:zoom="51.6875"
+     showgrid="false"
+     id="namedview915"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title900">icon-fav-hover</title>
+  <desc
+     id="desc902">Created with Sketch.</desc>
+  <defs
+     id="defs905">
+    <path
+       id="path-1"
+       d="M874.277005,2786.49709 C875.235099,2785.53854 876.534823,2785 877.89009,2785 C879.245357,2785 880.545081,2785.53854 881.503175,2786.49709 C882.461458,2787.45492 883,2788.75464 883,2790.10991 C883,2791.46518 882.461458,2792.7649 881.503045,2793.72286 L874.555519,2800.67039 C874.248598,2800.97731 873.750982,2800.97731 873.444061,2800.67039 L866.496535,2793.72286 C864.501155,2791.72748 864.501155,2788.49234 866.496535,2786.49696 C868.491915,2784.50158 871.727064,2784.50158 873.722444,2786.49696 L873.99979,2786.7743 L874.277005,2786.49709 Z M873.99979,2799.0032 L879.558513,2793.44448 L880.391718,2792.61128 C881.055325,2791.94798 881.428162,2791.04817 881.428162,2790.10991 C881.428162,2789.17165 881.055325,2788.27184 880.391718,2787.60854 C879.728161,2786.94468 878.828352,2786.57184 877.89009,2786.57184 C876.951828,2786.57184 876.052019,2786.94468 875.388593,2787.60841 L874.555519,2788.44149 C874.248598,2788.74841 873.750982,2788.74841 873.444061,2788.44149 L872.610987,2787.60841 C871.229448,2786.22687 868.989531,2786.22687 867.607993,2787.60841 C866.226454,2788.98995 866.226454,2791.22987 867.607992,2792.61141 L873.99979,2799.0032 Z" />
+  </defs>
+  <g
+     style="fill:#ffffff;fill-opacity:1"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="GIFOS">
+    <g
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-865.000000, -2785.000000)"
+       id="00-UI-Kit">
+      <mask
+         fill="white"
+         id="mask-2">
+        <use
+           id="use907"
+           xlink:href="#path-1" />
+      </mask>
+      <use
+         style="fill:#ffffff;fill-opacity:1"
+         xlink:href="#path-1"
+         fill-rule="nonzero"
+         fill="#572EE5"
+         id="icon-fav-hover" />
+    </g>
+  </g>
+</svg>

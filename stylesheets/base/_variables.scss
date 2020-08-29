@@ -1,0 +1,32 @@
+$body-font: 'Montserrat', sans-serif;
+$purple: #572ee5;
+$blue: #50e3c2;
+$light-gray: #f3f5f8;
+$active-gray: #9cafc3;
+$dark-gray: #37383c;
+
+@mixin icon-bg($path) {
+  background-image: url($path);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes rotation {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(359deg);
+  }
+}
+
+@keyframes rotationUpload {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

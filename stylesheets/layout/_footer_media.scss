@@ -1,0 +1,27 @@
+@include for-desktop {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+
+    #social {
+      display: flex;
+      align-items: center;
+    }
+
+    #icons {
+      margin-left: 20px;
+    }
+
+    img {
+      display: inline;
+    }
+  }
+}
+
+@include for-tablet {
+  footer {
+    padding: 40px 5%;
+  }
+}

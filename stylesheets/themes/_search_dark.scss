@@ -1,0 +1,32 @@
+.dark-mode {
+  .search-box {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .search-btn {
+    background-image: url('../images/icon-search-mod-noc.svg');
+  }
+
+  .suggestion:hover {
+    color: $blue;
+  }
+
+  li.active {
+    background-color: #292929;
+  }
+
+  .open {
+    #search-btn {
+      background-image: url('../images/button-close-modo-noc.svg');
+    }
+  }
+
+  .border {
+    #suggestions {
+      border: 1px solid white;
+      border-top: none;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+body {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $purple;
+}
+
+hr {
+  background-color: $purple;
+  border: none;
+  height: 5px;
+  margin: 0;
+}
+
+.colored-text {
+  color: $purple;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.hover-btn {
+  background-color: transparent;
+  border: 1px solid $purple;
+  color: $purple;
+  transition: background-color 0.3s ease;
+}
+
+.hover-btn:hover {
+  background-color: $purple;
+  color: white;
+}
+
+.rounded-btn {
+  margin: 20% auto 0;
+  border-radius: 200px;
+  padding: 15px 25px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+main {
+  hr {
+    background-color: $active-gray;
+    height: 1px;
+    width: 40%;
+    margin: 20px auto;
+  }
+}

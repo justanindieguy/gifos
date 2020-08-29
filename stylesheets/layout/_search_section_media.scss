@@ -1,0 +1,38 @@
+@include for-desktop {
+  #search {
+    padding: 4% 20% 8%;
+
+    h1 {
+      font-size: 40px;
+      width: 650px;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 10%;
+    }
+  }
+
+  #ilustration {
+    width: 60%;
+  }
+}
+
+@include for-tablet {
+  #search {
+    padding: 4% 15% 8%;
+  }
+
+  #ilustration {
+    width: 60%;
+  }
+}
+
+@include for-tablet-small {
+  #ilustration {
+    width: 80%;
+  }
+}

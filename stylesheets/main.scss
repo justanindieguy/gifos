@@ -1,0 +1,39 @@
+// Normalize CSS
+@import 'vendors/normalize';
+
+// Base
+@import 'base/variables';
+@import 'base/base_layout';
+@import 'base/media_mixins';
+
+// Components
+@import 'components/navbar';
+@import 'components/box';
+@import 'components/search_section';
+@import 'components/previous_next_buttons';
+@import 'components/gif_grid';
+@import 'components/gif_card';
+@import 'components/carousel';
+@import 'components/trending';
+@import 'components/footer';
+@import 'components/search_results';
+@import 'components/search_box';
+@import 'components/gif_max';
+
+// Layout
+@import 'layout/nav_media';
+@import 'layout/search_section_media';
+@import 'layout/search_box_media';
+@import 'layout/carousel_media';
+@import 'layout/trending_media';
+@import 'layout/footer_media';
+@import 'layout/gif_grid_media';
+@import 'layout/gif_card_media';
+@import 'layout/search_results_media';
+@import 'layout/gif_max_media';
+
+// Themes
+@import 'themes/base_dark';
+@import 'themes/search_dark';
+@import 'themes/trending_dark';
+@import 'themes/gif_max_dark';

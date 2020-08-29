@@ -1,0 +1,35 @@
+#search {
+  text-align: center;
+  padding: 5%;
+
+  b {
+    color: $blue;
+    font-weight: 800;
+  }
+
+  h3 {
+    margin-top: 20%;
+  }
+
+  p {
+    padding: 0 10%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+}
+
+#ilustration {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.trending-term {
+  cursor: pointer;
+  transition: color ease 0.5s;
+}
+
+.trending-term:hover {
+  color: $blue;
+}

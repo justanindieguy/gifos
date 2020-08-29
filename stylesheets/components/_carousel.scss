@@ -1,0 +1,19 @@
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+
+  .card {
+    width: 243px;
+    height: 187px;
+    margin-left: 5%;
+    flex-shrink: 0;
+  }
+
+  .card:last-child {
+    padding-right: 5%;
+  }
+}
+
+.carousel-track::-webkit-scrollbar {
+  width: 0;
+}

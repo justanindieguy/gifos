@@ -1,0 +1,34 @@
+#search-container {
+  text-align: center;
+  padding: 5%;
+  display: none;
+
+  h1 {
+    margin: 50px;
+  }
+}
+
+#search-results {
+  display: none;
+}
+
+#not-found {
+  text-align: center;
+  display: none;
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  p {
+    color: #50e3c2;
+    line-height: 25px;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
+#see-more-favorites {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.search-box {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid $purple;
+  border-radius: 100px;
+  padding-left: 50px;
+}
+
+.search-btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  position: absolute;
+  background: transparent;
+  @include icon-bg('../images/icon-search.svg');
+}

@@ -1,0 +1,47 @@
+@include for-desktop {
+  #gif-max {
+    padding: 5% 20%;
+    background-color: white;
+
+    img {
+      width: 636px;
+      height: 395px;
+      margin: 0;
+      margin-bottom: 10px;
+      object-fit: contain;
+    }
+  }
+
+  #close-max {
+    margin-bottom: 100px;
+  }
+
+  #gif-container-max {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #max-info {
+    width: 636px;
+    margin: 0 auto;
+  }
+
+  #previous-max {
+    margin-right: 25px;
+  }
+
+  #next-max {
+    margin-left: 25px;
+  }
+}
+
+@include for-tablet {
+  #gif-max {
+    padding: 5% 10%;
+  }
+
+  #close-max {
+    margin-bottom: 100px;
+  }
+}

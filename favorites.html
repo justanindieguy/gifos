@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis GIFOS Favoritos</title>
+
+    <link rel="stylesheet" href="css/favorites_main.css" />
+
+    <link
+      rel="shortcut icon"
+      href="images/logo-desktop-modo-noc.svg"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <hr id="nav-hr" />
+
+    <nav>
+      <div id="nav-container">
+        <a href="/">
+          <img src="images/logo.svg" alt="Logotipo" id="logo" />
+          <span id="logo-text" class="colored-text">GIFOS</span>
+        </a>
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <span class="hamburger-bar" id="bar-top"></span>
+        <span class="hamburger-bar" id="bar-center"></span>
+        <span class="hamburger-bar" id="bar-bottom"></span>
+
+        <div class="container">
+          <ul id="menu">
+            <li id="dark-toggle">Modo Nocturno</li>
+
+            <li id="favorites-menu">
+              <a href="/favorites.html">Favoritos</a>
+            </li>
+
+            <li id="mis-gifos-menu">
+              <a href="myGIFOS.html">Mis GIFOS</a>
+            </li>
+          </ul>
+
+          <a href="/createGIF.html" class="hover-btn" id="create-btn"></a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="gif-max">
+        <button id="close-max"></button>
+
+        <div id="gif-container-max">
+          <button class="previous hover-btn" id="previous-max"></button>
+
+          <img src="/" alt="GIF Max Size" />
+
+          <button class="next hover-btn" id="next-max"></button>
+        </div>
+
+        <div id="max-info">
+          <div>
+            <h3>User</h3>
+            <h2>GIFO Title</h2>
+          </div>
+
+          <div>
+            <button id="favorite"></button>
+            <a id="download"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-wrapper">
+        <img src="images/icon-favoritos.svg" alt="Ícono favoritos" />
+        <h2>Favoritos</h2>
+
+        <div class="no-content">
+          <img
+            src="images/icon-fav-sin-contenido.svg"
+            alt="Sin favoritos ícono"
+          />
+
+          <p>
+            "¡Guarda tu primer GIFO en Favoritos para que se muestre aquí!"
+          </p>
+        </div>
+
+        <div class="content">
+          <div class="grid"></div>
+
+          <button class="hover-btn rounded-btn see-more">VER MÁS</button>
+        </div>
+      </section>
+
+      <section id="trending">
+        <h2>Trending GIFOS</h2>
+        <p>Mira los últimos GIFOS de nuestra comunidad.</p>
+
+        <div class="carousel">
+          <button class="hover-btn carousel-btn previous is-hidden"></button>
+
+          <div class="carousel-track-container">
+            <div class="carousel-track"></div>
+          </div>
+
+          <button class="hover-btn carousel-btn next"></button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="social">
+        <p>Compartir en:</p>
+
+        <div id="icons">
+          <a
+            id="facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="twitter"
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        </div>
+      </div>
+
+      <div>
+        <p>&copy; GIFOS 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <hr />
+
+    <script type="module" src="./js/navbar.js"></script>
+    <script type="module" src="./js/darkmode.js"></script>
+    <script type="module" src="./js/trendingGIFs.js"></script>
+    <script type="module" src="./js/scroll.js"></script>
+    <script type="module" src="./js/carousel.js"></script>
+    <script type="module" src="./js/favorites/favorites.js"></script>
+    <script type="module" src="./js/favorites/favoritesPage.js"></script>
+    <script type="module" src="./js/maxGIF.js"></script>
+  </body>
+</html>

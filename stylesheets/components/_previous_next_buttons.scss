@@ -1,0 +1,21 @@
+.previous,
+.next {
+  width: 40px;
+  height: 40px;
+}
+
+.previous {
+  @include icon-bg("../images/button-left.svg");
+}
+
+.previous:hover {
+  background-image: url("../images/button-left-hover.svg");
+}
+
+.next {
+  @include icon-bg("../images/button-right.svg");
+}
+
+.next:hover {
+  background-image: url("../images/button-right-hover.svg");
+}

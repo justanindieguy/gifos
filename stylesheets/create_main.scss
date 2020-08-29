@@ -1,0 +1,21 @@
+// Normalize CSS
+@import 'vendors/normalize';
+
+// Base
+@import 'base/variables';
+@import 'base/base_layout';
+@import 'base/media_mixins';
+
+// Components
+@import 'components/navbar';
+@import 'components/box';
+@import 'components/footer';
+@import 'pages/create_gif';
+
+// Layout
+@import 'layout/nav_media';
+@import 'layout/footer_media';
+
+// Themes
+@import 'themes/base_dark';
+@import 'themes/create_gif_dark';

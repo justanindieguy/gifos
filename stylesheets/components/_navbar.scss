@@ -1,0 +1,182 @@
+#nav-hr {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav {
+  background-color: white;
+  padding: 20px 20px 20px;
+  position: sticky;
+  top: 5px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#nav-container {
+  background-color: white;
+
+  #bar-top {
+    top: 50px;
+  }
+
+  #bar-center {
+    top: 57px;
+  }
+
+  #bar-bottom {
+    top: 64px;
+  }
+
+  li {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
+    padding: 20px 0;
+    user-select: none;
+  }
+
+  li:not(:first-child)::after {
+    content: '';
+    display: block;
+    background: white;
+    opacity: 0.5;
+    position: relative;
+    width: 50px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -40px;
+    z-index: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    user-select: none;
+  }
+}
+
+.hamburger-bar {
+  display: block;
+  background-color: $purple;
+  border-radius: 20px;
+  height: 2px;
+  width: 20px;
+  right: 30px;
+  position: absolute;
+}
+
+.is-sticky {
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.search-nav-container {
+  position: relative;
+  align-self: center;
+  margin-left: 50px;
+}
+
+.search-nav-container.is-hidden {
+  display: none;
+}
+
+#logo-text {
+  display: block;
+  position: absolute;
+  top: 48px;
+  left: 32px;
+  font-weight: 900;
+}
+
+#search-nav {
+  width: 334px;
+  height: 40px;
+}
+
+#search-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+#toggle {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+  appearance: none;
+  cursor: pointer;
+}
+
+#toggle:focus {
+  outline: none;
+}
+
+#menu {
+  display: none;
+  background-color: $purple;
+  opacity: 95%;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+// Showing menu.
+#menu.show {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#create-btn {
+  display: none;
+}
+
+// Default status.
+#toggle ~ #bar-top {
+  transform: rotate(0) translate(0, 0);
+  transition: transform 0.4s linear;
+}
+
+#toggle ~ #bar-center {
+  opacity: 100;
+  transition: opacity 0.4s linear;
+}
+
+#toggle ~ #bar-bottom {
+  transform: rotate(0) translate(0, 0);
+  transition: transform 0.4s linear;
+}
+
+// Menu open status.
+#toggle:checked ~ #bar-top {
+  transform: rotate(45deg) translate(5px, 5px);
+  transition: transform 0.4s linear;
+}
+
+#toggle:checked ~ #bar-center {
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+#toggle:checked ~ #bar-bottom {
+  transform: rotate(-45deg) translate(5px, -5px);
+  transition: transform 0.4s linear;
+}

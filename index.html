@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIFOS</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link
+      rel="shortcut icon"
+      href="images/logo-desktop-modo-noc.svg"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <hr id="nav-hr" />
+
+    <nav>
+      <div id="nav-container">
+        <div id="search-wrapper">
+          <a href="/">
+            <img src="images/logo.svg" alt="Logotipo" id="logo" />
+            <span id="logo-text" class="colored-text">GIFOS</span>
+          </a>
+
+          <div class="search-nav-container is-hidden">
+            <input
+              autocomplete="off"
+              type="search"
+              name="search-nav"
+              class="search-box"
+              id="search-nav"
+              placeholder="Busca GIFOS y más"
+            />
+
+            <button class="search-btn" id="search-nav-btn"></button>
+          </div>
+        </div>
+
+        <input type="checkbox" name="toggle" id="toggle" />
+        <span class="hamburger-bar" id="bar-top"></span>
+        <span class="hamburger-bar" id="bar-center"></span>
+        <span class="hamburger-bar" id="bar-bottom"></span>
+
+        <div class="container">
+          <ul id="menu">
+            <li id="dark-toggle">Modo Nocturno</li>
+
+            <li id="favorites-menu">
+              <a href="/favorites.html">Favoritos</a>
+            </li>
+
+            <li id="mis-gifos-menu">
+              <a href="myGIFOS.html">Mis GIFOS</a>
+            </li>
+          </ul>
+
+          <a href="/createGIF.html" class="hover-btn" id="create-btn"></a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <section id="search">
+        <h1>Inspírate, busca, guarda, y crea los mejores <b>GIFOS</b></h1>
+
+        <img
+          src="images/ilustra_header.svg"
+          alt="Ilustración"
+          id="ilustration"
+        />
+
+        <div id="input-container">
+          <input
+            autocomplete="off"
+            type="search"
+            name="search-box"
+            class="search-box"
+            id="search-box"
+            placeholder="Busca GIFOS y más"
+            required
+          />
+
+          <button class="search-btn" id="search-btn"></button>
+
+          <hr id="search-margin" />
+
+          <ul id="suggestions">
+            <li class="suggestion">
+              <div class="suggestion-text"></div>
+            </li>
+
+            <li class="suggestion">
+              <div class="suggestion-text"></div>
+            </li>
+
+            <li class="suggestion">
+              <div class="suggestion-text"></div>
+            </li>
+
+            <li class="suggestion">
+              <div class="suggestion-text"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="trending-terms">
+          <h3>Trending:</h3>
+          <p id="trending-text" class="colored-text"></p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="gif-max">
+        <button id="close-max"></button>
+
+        <div id="gif-container-max">
+          <button id="previous-max"></button>
+
+          <img src="/" alt="GIF Max Size" />
+
+          <button id="next-max"></button>
+        </div>
+
+        <div id="max-info">
+          <div>
+            <h3>User</h3>
+            <h2>GIFO Title</h2>
+          </div>
+
+          <div>
+            <button id="favorite"></button>
+            <a id="download"></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="search-container">
+        <hr />
+
+        <h1 id="query-title">Query title</h1>
+
+        <div id="search-results">
+          <div class="grid" id="search-grid"></div>
+
+          <button class="hover-btn rounded-btn" id="see-more-search">
+            VER MÁS
+          </button>
+        </div>
+
+        <div id="not-found">
+          <img
+            src="../images/icon-busqueda-sin-resultado.svg"
+            alt="Ícono búsqueda sin resultado"
+          />
+
+          <p>Intenta con otra búsqueda</p>
+        </div>
+      </section>
+
+      <section id="trending">
+        <h2>Trending GIFOS</h2>
+        <p>Mira los últimos GIFOS de nuestra comunidad.</p>
+
+        <div class="carousel">
+          <button class="hover-btn carousel-btn previous is-hidden"></button>
+
+          <div class="carousel-track-container">
+            <div class="carousel-track"></div>
+          </div>
+
+          <button class="hover-btn carousel-btn next"></button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="social">
+        <p>Compartir en:</p>
+
+        <div id="icons">
+          <a
+            id="facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="twitter"
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+
+          <a
+            id="instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        </div>
+      </div>
+
+      <div>
+        <p>&copy; GIFOS 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <hr />
+
+    <script type="module" src="./js/navbar.js"></script>
+    <script type="module" src="./js/darkmode.js"></script>
+    <script type="module" src="./js/trendingGIFs.js"></script>
+    <script type="module" src="./js/carousel.js"></script>
+    <script type="module" src="./js/searchBox.js"></script>
+    <script type="module" src="./js/searchNav.js"></script>
+    <script type="module" src="./js/searchGIFs.js"></script>
+    <script type="module" src="./js/scroll.js"></script>
+    <script type="module" src="./js/trendingTerms.js"></script>
+    <script type="module" src="./js/favorites/favorites.js"></script>
+    <script type="module" src="./js/maxGIF.js"></script>
+  </body>
+</html>

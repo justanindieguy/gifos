@@ -1,0 +1,56 @@
+@include for-desktop {
+  .grid {
+    grid-template-columns: repeat(4, 260px);
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+
+    .card {
+      width: 260px;
+      height: 200px;
+      justify-self: center;
+    }
+  }
+
+  .rounded-btn {
+    margin-top: 5%;
+  }
+}
+
+@include for-tablet {
+  .grid {
+    grid-template-columns: repeat(3, 290px);
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+
+    .card {
+      width: 290px;
+      height: 200px;
+      justify-content: center;
+    }
+  }
+
+  .rounded-btn {
+    margin: 5% auto;
+  }
+}
+
+@include for-tablet-small {
+  .grid {
+    grid-template-columns: repeat(2, 42vw);
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+
+    .card {
+      width: 100%;
+      height: 30vw;
+      justify-self: center;
+    }
+  }
+
+  .rounded-btn {
+    margin: 5% auto;
+  }
+}

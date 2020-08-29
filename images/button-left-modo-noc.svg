@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="button-left-modo-noc.svg"
+   id="svg871"
+   version="1.1"
+   viewBox="0 0 8 14"
+   height="14px"
+   width="8px">
+  <metadata
+     id="metadata875">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>button-left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="GIFOS"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="7"
+     inkscape:cx="4"
+     inkscape:zoom="59.071429"
+     showgrid="false"
+     id="namedview873"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title855">button-left</title>
+  <desc
+     id="desc857">Created with Sketch.</desc>
+  <defs
+     id="defs860">
+    <path
+       id="path-1"
+       d="M2.41421356,7 L7.70710678,1.70710678 C8.09763107,1.31658249 8.09763107,0.683417511 7.70710678,0.292893219 C7.31658249,-0.0976310729 6.68341751,-0.0976310729 6.29289322,0.292893219 L0.292893219,6.29289322 C-0.0976310729,6.68341751 -0.0976310729,7.31658249 0.292893219,7.70710678 L6.29289322,13.7071068 C6.68341751,14.0976311 7.31658249,14.0976311 7.70710678,13.7071068 C8.09763107,13.3165825 8.09763107,12.6834175 7.70710678,12.2928932 L2.41421356,7 Z" />
+  </defs>
+  <g
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="GIFOS">
+    <g
+       style="fill:#000000;fill-opacity:1"
+       transform="translate(-192.000000, -2978.000000)"
+       id="00-UI-Kit">
+      <g
+         style="fill:#000000;fill-opacity:1"
+         transform="translate(176.000000, 2965.000000)"
+         id="button-slider-left">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           transform="translate(16.000000, 13.000000)"
+           id="button-left">
+          <mask
+             fill="white"
+             id="mask-2">
+            <use
+               id="use862"
+               xlink:href="#path-1" />
+          </mask>
+          <use
+             style="fill:#000000;fill-opacity:1"
+             id="use865"
+             xlink:href="#path-1"
+             fill-rule="nonzero"
+             fill="#572EE5" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

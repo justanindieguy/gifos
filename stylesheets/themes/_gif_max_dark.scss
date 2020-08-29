@@ -1,0 +1,33 @@
+.dark-mode {
+  // Expanded gif elements.
+  #gif-max {
+    background-color: #222326;
+  }
+
+  #close-max {
+    background-image: url('../images/button-close-modo-noc.svg');
+  }
+
+  #favorite {
+    background-image: url('../images/icon-fav-modo-noc.svg');
+  }
+
+  #favorite.in-favorites {
+    background-image: url('../images/icon-fav-active-modo-noc.svg');
+  }
+
+  #remove {
+    background-image: url('../images/icon-trash-modo-noc.svg');
+  }
+
+  #download {
+    background-image: url('../images/icon-download-modo-noc.svg');
+  }
+
+  #max-info {
+    h2,
+    h3 {
+      color: white;
+    }
+  }
+}

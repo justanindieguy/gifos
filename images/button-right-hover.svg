@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="button-right-hover.svg"
+   id="svg923"
+   version="1.1"
+   viewBox="0 0 8 14"
+   height="14px"
+   width="8px">
+  <metadata
+     id="metadata927">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>button-right</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg923"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="7"
+     inkscape:cx="4"
+     inkscape:zoom="59.071429"
+     showgrid="false"
+     id="namedview925"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title907">button-right</title>
+  <desc
+     id="desc909">Created with Sketch.</desc>
+  <defs
+     id="defs912">
+    <path
+       id="path-1"
+       d="M5.58578644,7 L0.292893219,12.2928932 C-0.0976310729,12.6834175 -0.0976310729,13.3165825 0.292893219,13.7071068 C0.683417511,14.0976311 1.31658249,14.0976311 1.70710678,13.7071068 L7.70710678,7.70710678 C8.09763107,7.31658249 8.09763107,6.68341751 7.70710678,6.29289322 L1.70710678,0.292893219 C1.31658249,-0.0976310729 0.683417511,-0.0976310729 0.292893219,0.292893219 C-0.0976310729,0.683417511 -0.0976310729,1.31658249 0.292893219,1.70710678 L5.58578644,7 Z" />
+  </defs>
+  <g
+     style="fill:#ffffff;fill-opacity:1"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="GIFOS">
+    <g
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-192.000000, -2924.000000)"
+       id="00-UI-Kit">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(176.000000, 2911.000000)"
+         id="button-slider-right">
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(16.000000, 13.000000)"
+           id="button-right">
+          <mask
+             fill="white"
+             id="mask-2">
+            <use
+               id="use914"
+               xlink:href="#path-1" />
+          </mask>
+          <use
+             style="fill:#ffffff;fill-opacity:1"
+             id="use917"
+             xlink:href="#path-1"
+             fill-rule="nonzero"
+             fill="#572EE5" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
