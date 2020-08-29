@@ -72,7 +72,7 @@ export class GenericCard {
 
   createImgLoadingAnimation() {
     const loader = document.createElement('img');
-    loader.src = '../../images/loader.svg';
+    loader.src = '../images/loader.svg';
     loader.alt = 'Loading animation';
     loader.classList.add('loader');
 
